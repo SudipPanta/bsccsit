@@ -15,15 +15,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-      <AppHeader/>
+      {/* <AppHeader/>
       <HeroSection/>
       <Skills/>
       <Projects/>
       <Experiences/>
       <About/>
-      <Contact/>
+      <Contact/> */}
       {children}
-      <AppFooter/>
+      {/* <AppFooter/> */}
         </body>
     </html>
   );
